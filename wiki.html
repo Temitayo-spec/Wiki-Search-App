@@ -8,15 +8,31 @@
     <title>Wiki Search App</title>
 </head>
 <body>
+    <!--Whole container-->
     <div class="wrapper">
+        <!--Main Heading-->
         <header>
             <h1>Wiki search App</h1>
         </header>
+
+        <!--Toggle Switch to change the color themes just to make it cooler-->
+        <div class="toggle">
+            <p>Dark Mode</p>
+            <label class="switch">
+                <input type="checkbox" id="checkbox">
+                <span class="slider round"></span>
+             </label>
+            <p>Light Mode</p>
+        </div>
+        <!--Toggle Switch ends-->
+            
+        <!--Form input-->
         <form class="input">
             <input type="text" id="search" placeholder="Search here...">
             <button type="submit" id="search-btn">Search</button>
         <form>
 
+        <!--The search result display section-->
         <section>
             <!-- <div class="search-results">
                 <h2 class="search-title">
@@ -26,8 +42,8 @@
                 <a href="" class="result-link">auluzsldkuzsfvkuskkv</a>
             </div> -->
         </section>
-        <button class="read-more" type="button">Read More</button>
     </div>
+    <!--Whole container ends here-->
     <script defer src="app.js"></script>
 </body>
 </html>
