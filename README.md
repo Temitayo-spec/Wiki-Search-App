@@ -1,4 +1,4 @@
 # Wiki-Search-App.
 
-Creating Wikipedia Search App using Wikipedia API.
+Creating a Wikipedia Search App using Wikipedia API.
 Enjoy ☺️
